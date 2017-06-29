@@ -26,6 +26,8 @@ Além disso, tem também:
  - Autolayout
  - Stack View
 
+## Screenshots
+![alt tag](screenshots/previsaotempo.png "Tela demonstrando a previsão do tempo do dia e do resto da semana.")
 
 ## Construído utilizando
 
