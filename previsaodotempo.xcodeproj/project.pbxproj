@@ -18,7 +18,6 @@
 		C05866EE1E86D640004E167F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C05866ED1E86D640004E167F /* Assets.xcassets */; };
 		C05866F11E86D641004E167F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C05866EF1E86D641004E167F /* LaunchScreen.storyboard */; };
 		C05866FC1E86D641004E167F /* previsaodotempoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05866FB1E86D641004E167F /* previsaodotempoTests.swift */; };
-		C05867071E86D641004E167F /* previsaodotempoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05867061E86D641004E167F /* previsaodotempoUITests.swift */; };
 		C05867161E86FD91004E167F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C05867141E86FD91004E167F /* Main.storyboard */; };
 		C05867181E886A07004E167F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05867171E886A07004E167F /* Constants.swift */; };
 		C058671A1E88705E004E167F /* TemperaturaAtual.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05867191E88705E004E167F /* TemperaturaAtual.swift */; };
@@ -26,13 +25,6 @@
 
 /* Begin PBXContainerItemProxy section */
 		C05866F81E86D641004E167F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C05866DB1E86D640004E167F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C05866E21E86D640004E167F;
-			remoteInfo = previsaodotempo;
-		};
-		C05867031E86D641004E167F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = C05866DB1E86D640004E167F /* Project object */;
 			proxyType = 1;
@@ -58,9 +50,6 @@
 		C05866F71E86D641004E167F /* previsaodotempoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = previsaodotempoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C05866FB1E86D641004E167F /* previsaodotempoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = previsaodotempoTests.swift; sourceTree = "<group>"; };
 		C05866FD1E86D641004E167F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C05867021E86D641004E167F /* previsaodotempoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = previsaodotempoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C05867061E86D641004E167F /* previsaodotempoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = previsaodotempoUITests.swift; sourceTree = "<group>"; };
-		C05867081E86D641004E167F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C05867151E86FD91004E167F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C05867171E886A07004E167F /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = ../Constants.swift; sourceTree = "<group>"; };
 		C05867191E88705E004E167F /* TemperaturaAtual.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TemperaturaAtual.swift; sourceTree = "<group>"; };
@@ -77,13 +66,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		C05866F41E86D641004E167F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C05866FF1E86D641004E167F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -162,7 +144,6 @@
 			children = (
 				C05866E51E86D640004E167F /* previsaodotempo */,
 				C05866FA1E86D641004E167F /* previsaodotempoTests */,
-				C05867051E86D641004E167F /* previsaodotempoUITests */,
 				C05866E41E86D640004E167F /* Products */,
 				4162E4D4A62A1C25E0BD274E /* Pods */,
 				1687289952EB71EEA31D9DBA /* Frameworks */,
@@ -174,7 +155,6 @@
 			children = (
 				C05866E31E86D640004E167F /* previsaodotempo.app */,
 				C05866F71E86D641004E167F /* previsaodotempoTests.xctest */,
-				C05867021E86D641004E167F /* previsaodotempoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -199,15 +179,6 @@
 				C05866FD1E86D641004E167F /* Info.plist */,
 			);
 			path = previsaodotempoTests;
-			sourceTree = "<group>";
-		};
-		C05867051E86D641004E167F /* previsaodotempoUITests */ = {
-			isa = PBXGroup;
-			children = (
-				C05867061E86D641004E167F /* previsaodotempoUITests.swift */,
-				C05867081E86D641004E167F /* Info.plist */,
-			);
-			path = previsaodotempoUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,24 +222,6 @@
 			productReference = C05866F71E86D641004E167F /* previsaodotempoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		C05867011E86D641004E167F /* previsaodotempoUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C05867111E86D641004E167F /* Build configuration list for PBXNativeTarget "previsaodotempoUITests" */;
-			buildPhases = (
-				C05866FE1E86D641004E167F /* Sources */,
-				C05866FF1E86D641004E167F /* Frameworks */,
-				C05867001E86D641004E167F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C05867041E86D641004E167F /* PBXTargetDependency */,
-			);
-			name = previsaodotempoUITests;
-			productName = previsaodotempoUITests;
-			productReference = C05867021E86D641004E167F /* previsaodotempoUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -281,18 +234,12 @@
 				TargetAttributes = {
 					C05866E21E86D640004E167F = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 3VTJF2K4TB;
+						DevelopmentTeam = G4W3LESLMB;
 						ProvisioningStyle = Automatic;
 					};
 					C05866F61E86D641004E167F = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 3VTJF2K4TB;
-						ProvisioningStyle = Automatic;
-						TestTargetID = C05866E21E86D640004E167F;
-					};
-					C05867011E86D641004E167F = {
-						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 3VTJF2K4TB;
+						DevelopmentTeam = G4W3LESLMB;
 						ProvisioningStyle = Automatic;
 						TestTargetID = C05866E21E86D640004E167F;
 					};
@@ -313,7 +260,6 @@
 			targets = (
 				C05866E21E86D640004E167F /* previsaodotempo */,
 				C05866F61E86D641004E167F /* previsaodotempoTests */,
-				C05867011E86D641004E167F /* previsaodotempoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -330,13 +276,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		C05866F51E86D641004E167F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C05867001E86D641004E167F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -418,14 +357,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C05866FE1E86D641004E167F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C05867071E86D641004E167F /* previsaodotempoUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -433,11 +364,6 @@
 			isa = PBXTargetDependency;
 			target = C05866E21E86D640004E167F /* previsaodotempo */;
 			targetProxy = C05866F81E86D641004E167F /* PBXContainerItemProxy */;
-		};
-		C05867041E86D641004E167F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C05866E21E86D640004E167F /* previsaodotempo */;
-			targetProxy = C05867031E86D641004E167F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -558,7 +484,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 3VTJF2K4TB;
+				DEVELOPMENT_TEAM = G4W3LESLMB;
 				INFOPLIST_FILE = previsaodotempo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -575,7 +501,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 3VTJF2K4TB;
+				DEVELOPMENT_TEAM = G4W3LESLMB;
 				INFOPLIST_FILE = previsaodotempo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -591,7 +517,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = 3VTJF2K4TB;
+				DEVELOPMENT_TEAM = G4W3LESLMB;
 				INFOPLIST_FILE = previsaodotempoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bwmobi.previsaodotempoTests;
@@ -606,41 +532,13 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = 3VTJF2K4TB;
+				DEVELOPMENT_TEAM = G4W3LESLMB;
 				INFOPLIST_FILE = previsaodotempoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bwmobi.previsaodotempoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/previsaodotempo.app/previsaodotempo";
-			};
-			name = Release;
-		};
-		C05867121E86D641004E167F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = 3VTJF2K4TB;
-				INFOPLIST_FILE = previsaodotempoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.bwmobi.previsaodotempoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = previsaodotempo;
-			};
-			name = Debug;
-		};
-		C05867131E86D641004E167F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = 3VTJF2K4TB;
-				INFOPLIST_FILE = previsaodotempoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.bwmobi.previsaodotempoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = previsaodotempo;
 			};
 			name = Release;
 		};
@@ -670,15 +568,6 @@
 			buildConfigurations = (
 				C058670F1E86D641004E167F /* Debug */,
 				C05867101E86D641004E167F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C05867111E86D641004E167F /* Build configuration list for PBXNativeTarget "previsaodotempoUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C05867121E86D641004E167F /* Debug */,
-				C05867131E86D641004E167F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

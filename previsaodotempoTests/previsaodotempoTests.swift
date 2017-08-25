@@ -11,9 +11,11 @@ import XCTest
 
 class previsaodotempoTests: XCTestCase {
     
+    let previsaoTempoVC = PrevisaoTempoVC()
+    
+    
     override func setUp() {
         super.setUp()
-        // Put setup code here. This method is called before the invocation of each test method in the class.
     }
     
     override func tearDown() {
@@ -21,16 +23,15 @@ class previsaodotempoTests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
-    
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
+    func testCollectionHasItems() {
+        let exp = expectation(description: "Esperando que o load da previsão do tempo da semana falhe.")
+        previsaoTempoVC.donwloadDetalhesPrevisaoTempo { 
+           exp.fulfill()
         }
+        
+        waitForExpectations(timeout: 3, handler: nil)
+        
+        XCTAssertGreaterThan(previsaoTempoVC.previsoesTempo.count, 0, "Não foi carregada a lista com a previsão do tempo da semana.")
     }
     
 }
